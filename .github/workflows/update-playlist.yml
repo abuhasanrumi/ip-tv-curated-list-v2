@@ -3,7 +3,7 @@ name: Update IPTV Playlist
 on:
   # Run automatically every 6 hours
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 * * * *'
   
   # Allow manual trigger
   workflow_dispatch:
@@ -34,6 +34,10 @@ jobs:
       
       - name: Run playlist updater
         id: update
+        env:
+          UPSTREAM_URL_1: ${{ secrets.UPSTREAM_URL_1 }}
+          UPSTREAM_URL_2: ${{ secrets.UPSTREAM_URL_2 }}
+          UPSTREAM_URL_3: ${{ secrets.UPSTREAM_URL_3 }}
         run: |
           echo "Running playlist updater..."
           
@@ -51,8 +55,9 @@ jobs:
           python scripts/update_playlist.py \
             --playlist my \
             --upstream \
-              "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my" \
-              "https://raw.githubusercontent.com/musfiqeee/iptv-m3u-bot/main/output/all.m3u" \
+              "$UPSTREAM_URL_1" \
+              "$UPSTREAM_URL_2" \
+              "$UPSTREAM_URL_3" \
             $VALIDATE_FLAG
           
           # Capture exit code

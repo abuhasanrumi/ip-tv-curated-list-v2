@@ -74,12 +74,7 @@ Duplicate entries (same tvg-id or name) are automatically removed.
    ```
 
 2. **Configure upstream sources** (optional):
-   Edit `.github/workflows/update-playlist.yml` to customize upstream URLs:
-   ```yaml
-   --upstream \
-     "https://raw.githubusercontent.com/sydul104/main04/refs/heads/main/my" \
-     "https://raw.githubusercontent.com/musfiqeee/iptv-m3u-bot/main/output/all.m3u"
-   ```
+   Edit `.github/workflows/update-playlist.yml` to customize upstream URLs.
 
 3. **Commit and push:**
    ```bash
