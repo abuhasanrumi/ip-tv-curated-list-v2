@@ -467,18 +467,35 @@ class PlaylistUpdater:
             up_logo = up.tvg_logo or ""
             s = score_match(cur_name, up_name, cur_logo, up_logo)
 
-            # if validation enabled, prefer working links
-            working = url_validation_cache.get(up.url, True) if validate_urls else True
-            working_penalty = 0 if working else 1
+            # working links first when validation is enabled
+            if validate_urls:
+                working = url_validation_cache.get(up.url, False)
+                working_penalty = 0 if working else 1   # 0=good, 1=bad
+            else:
+                working_penalty = 0
 
-            # sort: working first, then rank, then highest score
-            scored.append((working_penalty, up.source_rank, -s, len(up.url or ""), up))
+            # Add only primitives before the Channel object so sorting never compares Channel
+            # Sort priority:
+            #   1) working first (0 before 1)
+            #   2) upstream rank (lower first)
+            #   3) match score (higher first)
+            #   4) shorter URL (usually cleaner tokens)
+            #   5) stable tie-breaker by name
+            scored.append((
+                working_penalty,
+                int(up.source_rank or 999),
+                float(s),
+                int(len(up.url or "")),
+                (up.display_name() or "").lower(),
+                up
+            ))
 
-        scored.sort()
-        best = scored[0][4]
+        scored.sort(key=lambda t: (t[0], t[1], -t[2], t[3], t[4]))
 
-        # if best score is terrible, treat as no match
-        best_score = -scored[0][2]
+        best = scored[0][5]
+        best_score = scored[0][2]
+
+        # If score is too low, treat as no match (prevents random collisions)
         if best_score < 0.25:
             return None
 
