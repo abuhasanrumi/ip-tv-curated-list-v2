@@ -19,6 +19,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment: .env  # Use the .env environment for variables
     
     permissions:
       contents: write
@@ -36,17 +37,18 @@ jobs:
       
       - name: Run playlist updater
         id: update
+        env:
+          UPSTREAM_URL_1: ${{ secrets.UPSTREAM_URL_1 }}
+          UPSTREAM_URL_2: ${{ secrets.UPSTREAM_URL_2 }}
+          UPSTREAM_URL_3: ${{ secrets.UPSTREAM_URL_3 }}
+          UPSTREAM_URL_4: ${{ secrets.UPSTREAM_URL_4 }}
+          UPSTREAM_URL_5: ${{ secrets.UPSTREAM_URL_5 }}
+          UPSTREAM_URL_6: ${{ secrets.UPSTREAM_URL_6 }}
+          UPSTREAM_URL_7: ${{ secrets.UPSTREAM_URL_7 }}
+          UPSTREAM_URL_8: ${{ secrets.UPSTREAM_URL_8 }}
         run: |
           echo "Running playlist updater..."
-          
-          # Load upstream URLs from .env file
-          if [ -f ".env" ]; then
-            export $(cat .env | grep -v '^#' | xargs)
-            echo "✓ Loaded upstream URLs from .env"
-          else
-            echo "✗ .env file not found"
-            exit 1
-          fi
+          echo "✓ Loaded upstream URLs from encrypted secrets"
           
           # Determine validation flag
           VALIDATE_FLAG=""
