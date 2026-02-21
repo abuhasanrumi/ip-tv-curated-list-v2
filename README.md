@@ -1,4 +1,4 @@
-# IPTV Playlist Auto-Updater
+# IPTV Playlist 
 
 Automated system for maintaining a curated IPTV M3U playlist using GitHub Actions.
 
@@ -6,7 +6,7 @@ Automated system for maintaining a curated IPTV M3U playlist using GitHub Action
 
 This system automatically:
 - ✅ Downloads upstream playlists every 6 hours
-- ✅ Updates stream URLs for channels in your curated playlist
+- ✅ Updates stream URLs for channels in the curated playlist
 - ✅ **Collects multiple URL alternatives per channel**
 - ✅ **Validates URLs and switches to working alternatives**
 - ✅ Preserves your metadata (logos, groups, names, ordering)
