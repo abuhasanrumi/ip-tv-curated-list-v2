@@ -305,6 +305,17 @@ class PlaylistUpdater:
         print(f"\n✓ Total upstream channel entries: {total_channels} ({len(upstream_map)} unique names)")
         return upstream_map
     
+    def is_locked_disabled(self, channel: Channel) -> bool:
+        """Check if channel is explicitly locked from updates with # LOCK marker"""
+        # Check URL line for LOCK marker
+        if channel.url and '# LOCK' in channel.url.upper():
+            return True
+        # Check raw comment lines for LOCK marker
+        for line in channel.raw_lines:
+            if '# LOCK' in line.upper():
+                return True
+        return False
+    
     def update_channels(self, curated_channels: List[Channel], 
                        upstream_map: Dict[str, List[Channel]], 
                        validate_urls: bool = False) -> Tuple[List[Channel], int]:
@@ -376,9 +387,9 @@ class PlaylistUpdater:
                     channel.url = best_upstream.url
                     channel.is_commented = False
                     added_count += 1
-                # Update if URL is different and channel is not manually commented
+                # Update if URL is different and channel is not explicitly locked
                 elif channel.url != best_upstream.url:
-                    if not channel.is_commented:
+                    if not self.is_locked_disabled(channel):
                         print(f"↻ Updating: {channel.channel_name}")
                         print(f"  Old: {channel.url[:80]}...")
                         print(f"  New: {best_upstream.url[:80]}...")
@@ -388,18 +399,18 @@ class PlaylistUpdater:
                         channel.is_commented = False  # Re-enable if was disabled
                         updated_count += 1
                     else:
-                        print(f"⊘ Keeping (manually disabled): {channel.channel_name}")
+                        print(f"⊘ Keeping (manually locked): {channel.channel_name}")
             else:
                 # No upstream match
                 if not channel.url or channel.url == "":
                     print(f"⊘ Waiting for source: {channel.channel_name}")
-                elif channel.is_commented:
-                    print(f"⊘ Keeping (manually disabled): {channel.channel_name}")
+                elif self.is_locked_disabled(channel):
+                    print(f"⊘ Keeping (manually locked): {channel.channel_name}")
                 else:
                     print(f"ℹ No upstream match: {channel.channel_name}")
             
-            # Validate URL if requested (only for channels with active URLs)
-            if validate_urls and channel.url and not channel.is_commented:
+            # Validate URL if requested (only for channels with active URLs that aren't locked)
+            if validate_urls and channel.url and not self.is_locked_disabled(channel):
                 if not self.validate_stream_url(channel.url):
                     print(f"⚠ Unreachable: {channel.channel_name}")
                     # Try to find a working alternative from upstream
