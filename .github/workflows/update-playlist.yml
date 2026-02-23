@@ -2,11 +2,11 @@ name: Update IPTV Playlist
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: "0 * * * *"
   workflow_dispatch:
     inputs:
       validate_urls:
-        description: 'Validate stream URLs (default: true). Turn off for faster run.'
+        description: "Validate stream URLs (default: true). Turn off for faster run."
         required: false
         type: boolean
         default: true
@@ -28,7 +28,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Run playlist updater
         id: update
@@ -64,14 +64,14 @@ jobs:
           # ----------------------------
           UPSTREAM_ARGS=()
 
-          [ -n "${UPSTREAM_URL_1}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_1}")
-          [ -n "${UPSTREAM_URL_2}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_2}")
-          [ -n "${UPSTREAM_URL_3}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_3}")
-          # [ -n "${UPSTREAM_URL_4}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_4}")
-          [ -n "${UPSTREAM_URL_5}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_5}")
-          # [ -n "${UPSTREAM_URL_6}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_6}")
-          [ -n "${UPSTREAM_URL_7}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_7}")
-          # [ -n "${UPSTREAM_URL_8}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_8}")
+          [ -n "${UPSTREAM_URL_1:-}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_1}")
+          [ -n "${UPSTREAM_URL_2:-}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_2}")
+          [ -n "${UPSTREAM_URL_3:-}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_3}")
+          # [ -n "${UPSTREAM_URL_4:-}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_4}")
+          [ -n "${UPSTREAM_URL_5:-}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_5}")
+          # [ -n "${UPSTREAM_URL_6:-}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_6}")
+          [ -n "${UPSTREAM_URL_7:-}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_7}")
+          # [ -n "${UPSTREAM_URL_8:-}" ] && UPSTREAM_ARGS+=("${UPSTREAM_URL_8}")
 
           echo "Upstreams enabled: ${#UPSTREAM_ARGS[@]}"
           if [ ${#UPSTREAM_ARGS[@]} -eq 0 ]; then
@@ -79,28 +79,43 @@ jobs:
             exit 1
           fi
 
+          # run python but keep control of exit code for logs + downstream steps
+          set +e
           python scripts/update_playlist.py \
             --playlist my \
             --upstream "${UPSTREAM_ARGS[@]}" \
             ${VALIDATE_FLAG}
-
           UPDATE_EXIT_CODE=$?
+          set -e
+
           echo "exit_code=$UPDATE_EXIT_CODE" >> $GITHUB_OUTPUT
 
+          echo "---- post-run git status ----"
+          git status --porcelain || true
+          echo "---- post-run diff names ----"
+          git diff --name-only || true
+
           if [ $UPDATE_EXIT_CODE -eq 0 ]; then
-            echo "✓ Playlist updated successfully"
-            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "✓ Playlist updater finished (exit 0)"
           else
-            echo "ℹ No changes detected"
-            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "⚠ Playlist updater returned non-zero: $UPDATE_EXIT_CODE"
+            # keep going so we can still see status/diff and summary
           fi
 
       - name: Check for changes
         id: git_status
         run: |
-          git diff --exit-code my || echo "changes_detected=true" >> $GITHUB_OUTPUT
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+            echo "Detected changes:"
+            git status --porcelain
+          else
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          fi
 
       - name: Commit and push changes
+        id: commit_push
         if: steps.git_status.outputs.changes_detected == 'true'
         run: |
           set -euo pipefail
@@ -110,60 +125,49 @@ jobs:
 
           CURRENT_DATE=$(date -u +"%Y-%m-%d %H:%M UTC")
 
-          git add my
-          git commit -m "🔄 Auto-update playlist - $CURRENT_DATE" \
-                     -m "Updated by GitHub Actions" \
-                     -m "Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
+          # stage everything so we don't miss new files
+          git add -A
 
-          if git diff --cached --quiet && git diff --quiet; then
-            echo "ℹ Nothing to push"
+          if git diff --cached --quiet; then
+            echo "committed=false" >> $GITHUB_OUTPUT
+            echo "Nothing staged, skipping commit"
             exit 0
           fi
 
-          for i in 1 2 3 4 5; do
-            echo "↻ Sync attempt $i/5"
+          git commit -m "🔄 Auto-update playlist - $CURRENT_DATE" \
+                     -m "Updated by GitHub Actions" \
+                     -m "Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
-            git fetch origin main
+          NEW_SHA=$(git rev-parse HEAD)
+          echo "committed=true" >> $GITHUB_OUTPUT
+          echo "new_sha=$NEW_SHA" >> $GITHUB_OUTPUT
 
-            if ! git rebase origin/main; then
-              git rebase --abort || true
-              git reset --soft HEAD~1 || true
-              git add my
-              git commit -m "🔄 Auto-update playlist - $CURRENT_DATE" \
-                         -m "Updated by GitHub Actions" \
-                         -m "Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
-              git rebase origin/main
-            fi
+          # rebase then push (handles the case someone pushed between runs)
+          git fetch origin main
+          git rebase origin/main || (git rebase --abort && exit 1)
 
-            if git push origin HEAD:main; then
-              echo "✓ Changes committed and pushed"
-              exit 0
-            fi
-
-            echo "⚠ Push rejected (someone pushed first). Retrying..."
-            sleep 2
-          done
-
-          echo "✗ Push failed after retries"
-          exit 1
+          git push origin HEAD:main
 
       - name: Summary
         if: always()
         run: |
           echo "## IPTV Playlist Update Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-
-          if [ "${{ steps.git_status.outputs.changes_detected }}" = "true" ]; then
-            echo "✅ **Playlist updated and committed**" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "ℹ️ **No changes detected - playlist is up to date**" >> $GITHUB_STEP_SUMMARY
-          fi
-
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### Details" >> $GITHUB_STEP_SUMMARY
           echo "- Trigger: \`${{ github.event_name }}\`" >> $GITHUB_STEP_SUMMARY
           echo "- Branch: \`${{ github.ref_name }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "- Commit: \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- Workflow base commit: \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ steps.git_status.outputs.changes_detected }}" = "true" ]; then
+            echo "- Changes detected in workspace: ✅" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- Changes detected in workspace: ❌" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ "${{ steps.commit_push.outputs.committed }}" = "true" ]; then
+            echo "- ✅ Pushed commit: \`${{ steps.commit_push.outputs.new_sha }}\`" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- ℹ️ No new commit pushed" >> $GITHUB_STEP_SUMMARY
+          fi
 
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "- URL Validation: \`${{ inputs.validate_urls }}\`" >> $GITHUB_STEP_SUMMARY
