@@ -3,13 +3,16 @@
 #https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8 # disabled: unreachable
 
 #EXTINF:-2 tvg-logo="https://ssl.com.bd/sites/default/files/BTV%20Logo%20Gallery.png" group-title="BANGLA",BTV World
-https://tvsen6.aynascope.net/btv_world/index.m3u8?e=1772303441&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e87724745563173e8bd49110c6663f3a
+https://tvsen6.aynascope.net/btv_world/index.m3u8?e=1772307925&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=82128d3eba9c7605333f24e9808997bf
 
 #EXTINF:-2 tvg-logo="https://ssl.com.bd/sites/default/files/BTV%20Logo%20Gallery.png" group-title="BANGLA",BTV World (Backup 2)
 #http://xtv.ooo:8080/213112/213112/245908 # disabled: unreachable
 
 #EXTINF:-2 tvg-logo="https://ssl.com.bd/sites/default/files/BTV%20Logo%20Gallery.png" group-title="BANGLA",BTV News
 #https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8 # disabled: unreachable
+
+#EXTINF:-2 tvg-logo="https://ssl.com.bd/sites/default/files/BTV%20Logo%20Gallery.png" group-title="BANGLA",BTV News (Backup)
+http://xtv.ooo:8080/213112/213112/245908
 
 #EXTINF:-2 tvg-logo="https://ssl.com.bd/sites/default/files/BTV%20Logo%20Gallery.png" group-title="BANGLA", Sangshod tv
 
@@ -20,22 +23,16 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
 http://xtv.ooo:8080/213112/213112/245908
 
 #EXTINF:-4 tvg-logo="https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png" group-title="BANGLA",SOMOY TV
-https://edge2.roarzone.info:8447/roarzone/edge3/somoy-tv/index.m3u8?token=6e66f650a3fb8d5f881800e723b06e0e3b9b5a66-0828985f7f36c1b6b5c73772b580b253-1772297917-1772294317
+https://edge2.roarzone.info:8447/roarzone/edge3/somoy-tv/index.m3u8?token=22c1c6c50b285e012bbd6378dd035b698d552cef-8eacd297caadc2e58632e83dfdf2576f-1772304503-1772300903
 
 #EXTINF:-4 tvg-logo="https://dl.dropbox.com/s/leielj83em5kg7h/somoy_news.png" group-title="BANGLA",SOMOY TV (Backup 2)
 #http://103.151.61.12/SOMOY_TV/video.m3u8 # disabled: unreachable
 
 #EXTINF:-3 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Ekattor TV" tvg-logo="https://s4.gifyu.com/images/imagea02f4314e761661d.png" group-title="BANGLA",Ekattor TV
-https://tvsen6.aynascope.net/ekattorbdtv/index.m3u8?e=1772303473&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6e5355e82f0abd1275f66201902529ba
-
-#EXTINF:-3 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Ekattor TV" tvg-logo="https://s4.gifyu.com/images/imagea02f4314e761661d.png" group-title="BANGLA",Ekattor TV (Backup)
-https://edge2.roarzone.info:8447/roarzone/edge3/ekattor-tv/index.m3u8?token=195023569dbefffed14c8db9f93b91ed1700b5b1-b931e86265a31649523b3a5231b85e4b-1772297917-1772294317
-
-#EXTINF:-3 tvg-id="(no tvg-id)(m3u4u)" tvg-name="Ekattor TV" tvg-logo="https://s4.gifyu.com/images/imagea02f4314e761661d.png" group-title="BANGLA",Ekattor TV (Backup 2)
-https://edge2.roarzone.info:8447/roarzone/edge3/ekattor-tv/index.m3u8?token=a6fa0c3fb9fffe99564df2ca36268a4acdc9c1b9-c96deca3fc1b681b943416cb2b5f3b5c-1772301372-1772297772
+https://tvsen6.aynascope.net/ekattorbdtv/index.m3u8?e=1772307949&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c54411c9526b439aa1b040a2621039ea
 
 #EXTINF:-1 tvg-logo="https://dl.dropbox.com/s/puf12xv5flgbnz5/channel24_bd.png" group-title="BANGLA",Channel 24
-https://tvsen6.aynascope.net/channel24/index.m3u8?e=1772303469&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=d97cfce7d53bac55019aa3e781609526
+https://tvsen6.aynascope.net/channel24/index.m3u8?e=1772307946&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=178222cbb81963e58ff1dd80e14b57fa
 
 #EXTINF:-1 tvg-logo="https://dl.dropbox.com/s/puf12xv5flgbnz5/channel24_bd.png" group-title="BANGLA",Channel 24 (Backup 2)
 #https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8 # disabled: unreachable
@@ -43,89 +40,86 @@ https://tvsen6.aynascope.net/channel24/index.m3u8?e=1772303469&u=78be6644-0a65-4
 #https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/independent-8-org.stream/playlist.m3u8
 #https://tvsen6.aynaott.com/independenttv/index.m3u8
 #EXTINF:-6 tvg-logo="https://dl.dropbox.com/s/7xwwb8hetz3w8rp/independent_tv.png" group-title="BANGLA",INDEPENDENT TV
-https://tvsen6.aynascope.net/independenttv/index.m3u8?e=1772303470&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=39dba06aca3040ed387e1cf153e9aae8
+https://tvsen6.aynascope.net/independenttv/index.m3u8?e=1772307947&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=75e26353210eb839b9d5e92bd157b113
 
 #EXTINF:-6 tvg-logo="https://dl.dropbox.com/s/7xwwb8hetz3w8rp/independent_tv.png" group-title="BANGLA",INDEPENDENT TV (Backup 2)
 #http://xtv.ooo:8080/213112/213112/245916 # disabled: unreachable
 
 #EXTINF:-8 tvg-logo="https://dl.dropbox.com/s/k7z1dsec1jfjbkn/jamuna_tv_bd.png" group-title="BANGLA",JAMUNA TV
-https://tvsen6.aynascope.net/jamunatv/index.m3u8?e=1772303474&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=668dbc6a11a3e25533ce69a8ea11215a
+https://tvsen6.aynascope.net/jamunatv/index.m3u8?e=1772307950&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b4062068635ead059d1e44e0d6848e1e
 
 #EXTINF:-8 tvg-logo="https://dl.dropbox.com/s/k7z1dsec1jfjbkn/jamuna_tv_bd.png" group-title="BANGLA",JAMUNA TV (Backup 2)
 #https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/1701-audio_113312_eng=113200-video=1692000.m3u8 # disabled: unreachable
 
 #EXTINF:-7 tvg-logo="https://dl.dropbox.com/s/bl983avhouqd47c/news_24_bd.png" group-title="BANGLA",NEWS 24 HD
-https://tvsen6.aynascope.net/news24/index.m3u8?e=1772303472&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=bf6253377cfd86fae3248c6fab488d63
+https://tvsen6.aynascope.net/news24/index.m3u8?e=1772307949&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=108ccd3b433c59986b7a391a13356861
 
 #EXTINF:-7 tvg-logo="https://dl.dropbox.com/s/bl983avhouqd47c/news_24_bd.png" group-title="BANGLA",NEWS 24 HD (Backup 2)
 #http://103.96.235.18:9090/sports2/index.m3u8 # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/DBC_News_logo.png" group-title="BANGLA",DBC News
-https://tvsen6.aynascope.net/dbcnews/index.m3u8?e=1772303471&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=7e9a718a2d27124641acdec0d5993f24
+https://tvsen6.aynascope.net/dbcnews/index.m3u8?e=1772307948&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=fc14eb96a21f85e2cdd87275d42c2787
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/DBC_News_logo.png" group-title="BANGLA",DBC News (Backup 2)
 #http://xtv.ooo:8080/213112/213112/245914 # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0d/Ekhon_Logo.png" group-title="BANGLA",Ekhon TV
-https://tvsen6.aynascope.net/ekhontv/index.m3u8?e=1772303471&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=cdcd1a5783c49b9fca14ed09f03b8971
+https://tvsen6.aynascope.net/ekhontv/index.m3u8?e=1772307948&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=952f5255459f34a23a1fc4a6c0ec47c6
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0d/Ekhon_Logo.png" group-title="BANGLA",Ekhon TV (Backup 2)
 #https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/playlist.m3u8 # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/ffd7ba9b76ad555933f94bcb7ff26b44" group-title="BANGLA",Global TV
-https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1772303460&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=fe6138482feb9b58d2b100afa4cb0efe
+https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1772307939&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5a558926327a7ff762c84bc99a782fad
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/ffd7ba9b76ad555933f94bcb7ff26b44" group-title="BANGLA",Global TV (Backup 2)
-https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1772303460&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=fe6138482feb9b58d2b100afa4cb0efe
+https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1772307939&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5a558926327a7ff762c84bc99a782fad
 
 #EXTINF:-11 tvg-logo="https://dl.dropbox.com/s/4ldi1dp09s8o6bm/atn_news_bd.png" group-title="BANGLA",ATN NEWS [BD]
-https://edge2.roarzone.info:8447/roarzone/edge2/atn-news/index.m3u8?token=a95e9368636c2beaec6c9c7cc11027cfe729bd37-58ea393b86d86771cdab78dfc7b98668-1772301372-1772297772
+https://edge2.roarzone.info:8447/roarzone/edge2/atn-news/index.m3u8?token=eb230b58a1b94ad773416adb148ab0ab13bfaebb-3c6e2c8c6d788edcdd3e01d0de1cef19-1772304503-1772300903
 
 #EXTINF:-11 tvg-logo="https://dl.dropbox.com/s/4ldi1dp09s8o6bm/atn_news_bd.png" group-title="BANGLA",ATN NEWS [BD] (Backup 2)
 #https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8 # disabled: unreachable
 
 #EXTINF:-12 tvg-logo="https://s6.gifyu.com/images/image27cfa7002786c232.png"group-title="BANGLA",ATN Bangla
-https://tvsen5.aynascope.net/atnbangla/index.m3u8?e=1772303448&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b0551e8d38de7c5b5564d6847299f412
+https://tvsen5.aynascope.net/atnbangla/index.m3u8?e=1772307930&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=742f6b83b38ac262698025160bb3d65d
 
 #EXTINF:-12 tvg-logo="https://s6.gifyu.com/images/image27cfa7002786c232.png"group-title="BANGLA",ATN Bangla (Backup 2)
 #https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8 # disabled: unreachable
 
 #EXTINF:-29 tvg-logo="https://www.ntvbd.com/sites/default/files/aggregator/2020/02/17/ntv-channel_0.jpg" group-title="BANGLA",NTV
-https://tvsen5.aynascope.net/ntvbd/index.m3u8?e=1772303446&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=ff92e798d09d3e7b0b2cc4985d585ea1
-
-#EXTINF:-29 tvg-logo="https://www.ntvbd.com/sites/default/files/aggregator/2020/02/17/ntv-channel_0.jpg" group-title="BANGLA",NTV (Backup)
-http://103.175.242.10:8080/ntv/index.m3u8
+https://tvsen5.aynascope.net/ntvbd/index.m3u8?e=1772307929&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e936936f9ff4a98b78a185240087fec4
 
 #EXTINF:-30 tvg-logo="https://s4.gifyu.com/images/image29282f9d45a183d6.png" group-title="BANGLA",RTV
-https://tvsen5.aynascope.net/RtvHD/index.m3u8?e=1772303448&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6c03a64d9cd73fd24e1978bff614b7e0
-
-#EXTINF:-30 tvg-logo="https://s4.gifyu.com/images/image29282f9d45a183d6.png" group-title="BANGLA",RTV (Backup)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/rtv-sg.stream/playlist.m3u8
+https://tvsen5.aynascope.net/RtvHD/index.m3u8?e=1772307930&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e87b40ea44a9003a19afd2f8103537d4
 
 #http://38.96.178.201/live/BanglaVision/index.m3u8
 #https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
 #http://103.175.242.10:8080/banglavision/index.m3u8
 #EXTINF:-13 tvg-logo="https://s4.gifyu.com/images/image5c0bfa6b281be803.png" group-title="BANGLA",Banglavision
-https://edge2.roarzone.info:8447/roarzone/edge2/banglavision/index.m3u8?token=0618b3e191cc050d5c91182a4a037e4235abd3d1-3da4d35f969051099f141a81541fbcb4-1772301372-1772297772
+https://edge2.roarzone.info:8447/roarzone/edge2/banglavision/index.m3u8?token=0b7915c58a743de20a5183f16c6a495fd3c74fe7-51ac8576306c7e99c2e10db0684f3632-1772304503-1772300903
 
 #EXTINF:-13 tvg-logo="https://s4.gifyu.com/images/image5c0bfa6b281be803.png" group-title="BANGLA",Banglavision (Backup 2)
 #http://103.163.247.39/local_out/banglavision/video.m3u8?token=At5F1MFZYnciB3 # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/58658d4594ca1ff3c5031c9d8e3d9fc0" group-title="Bangla",Boishakhi TV
-https://tvsen6.aynascope.net/boishakhitv/index.m3u8?e=1772303453&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=9af859f00491e0f8282854403438435b
+https://tvsen6.aynascope.net/boishakhitv/index.m3u8?e=1772307934&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e3c48a2129be177cf6ffd27583b009ad
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/58658d4594ca1ff3c5031c9d8e3d9fc0" group-title="Bangla",Boishakhi TV (Backup 2)
-https://tvsen6.aynascope.net/boishakhitv/index.m3u8?e=1772303453&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=9af859f00491e0f8282854403438435b
+https://tvsen6.aynascope.net/boishakhitv/index.m3u8?e=1772307934&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e3c48a2129be177cf6ffd27583b009ad
 
 #EXTINF:-16 tvg-logo="https://s4.gifyu.com/images/image534fa27d7683f33d.png" group-title="BANGLA",Ekushey TV
 http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+
+#EXTINF:-16 tvg-logo="https://s4.gifyu.com/images/image534fa27d7683f33d.png" group-title="BANGLA",Ekushey TV (Backup)
+https://ekusheyserver.com/etvlivesn.m3u8
 
 #http://38.96.178.201/live/ChannelI/index.m3u8
 #https://ayna-three.vercel.app/api/stream/20714fd4-dc3c-46d6-924f-3038d61f027c.m3u8
 #https://bd.yflix.top/live.php?id=20714fd4-dc3c-46d6-924f-3038d61f027c
 #https://tvsen6.aynaott.com/channeli/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-17 tvg-logo="https://cdn.tvpassport.com/image/station/240x135/channel-i-bangla.png" group-title="BANGLA",Channel I
-https://tvsen6.aynascope.net/channeli/index.m3u8?e=1772303445&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e108bc8f16c664e772d3f1c35c717c64
+https://tvsen6.aynascope.net/channeli/index.m3u8?e=1772307928&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=ee4b40881ca247813bc150df884e49f8
 
 #EXTINF:-17 tvg-logo="https://cdn.tvpassport.com/image/station/240x135/channel-i-bangla.png" group-title="BANGLA",Channel I (Backup 2)
 #http://103.163.247.39/local_out/channeli/video.m3u8?token=At5F1MFZYnciB3 # disabled: unreachable
@@ -138,67 +132,64 @@ https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 
 #EXTINF:-1 group-title="BANGLA" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Maasranga_Television_Logo.jpg/180px-Maasranga_Television_Logo.jpg",Maasranga Tv
-https://tvsen5.aynascope.net/maasrangatv/index.m3u8?e=1772303450&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=0c491cfd221ee803839ef2721d0b244f
+https://tvsen5.aynascope.net/maasrangatv/index.m3u8?e=1772307932&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=94c90d4bfd71f36fbac5fa8ff91ef79b
 
 #EXTINF:-1 group-title="BANGLA" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Maasranga_Television_Logo.jpg/180px-Maasranga_Television_Logo.jpg",Maasranga Tv (Backup 2)
 #https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8 # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/a959f06b4fc9e1421f867b6c1601fe43" group-title="Bangla",Channel 9
-https://tvsen6.aynascope.net/channel9/index.m3u8?e=1772303454&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c848f8e6ff2a03c35c0bb63b56fd6fab
-
-#EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/a959f06b4fc9e1421f867b6c1601fe43" group-title="Bangla",Channel 9 (Backup)
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8
+https://tvsen6.aynascope.net/channel9/index.m3u8?e=1772307935&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=411b0f9d8e618b79768cd267fadb909c
 
 #EXTINF:-21 tvg-logo="https://i.ibb.co/pQGXzMP/images-1-removebg-preview.png" group-title="BANGLA", GAZI TV
 http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
 
 #EXTINF:-21 tvg-logo="https://i.ibb.co/pQGXzMP/images-1-removebg-preview.png" group-title="BANGLA", GAZI TV
-https://tvsen5.aynascope.net/Ravc7gPCZpxk/index.m3u8?e=1772303452&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5af9eb17821e392a35d16a03b7f27f25
+https://tvsen5.aynascope.net/Ravc7gPCZpxk/index.m3u8?e=1772307933&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e392449b68cf27b21cb2f159f7cb43e3
 
 #EXTINF:-21 tvg-logo="https://i.ibb.co/pQGXzMP/images-1-removebg-preview.png" group-title="BANGLA", GAZI TV
-https://edge2.roarzone.info:8447/roarzone/edge2/gazi/index.m3u8?token=596ac333527b04fd8e9c75fbf560febada706e9d-e502d65e0cdd637f0f08a2e4824e8882-1772301372-1772297772
+https://edge2.roarzone.info:8447/roarzone/edge2/gazi/index.m3u8?token=7e61dc9e43b8ed9bfe48542f2f57a7b90901d60a-6669161779df80396a84b958317f5130-1772304503-1772300903
 
 #EXTINF:-28 tvg-logo="https://dl.dropbox.com/s/4av1om6yhu12w9j/nagorik-bd.png" group-title="BANGLA",NAGORIK TV HD
-http://103.144.89.251:8082/NAGORIK.TV.HD/index.m3u8?token=e22e64063c172104069c7ba82a172abd538c86d9-f5d226660b220719a9cdfaa263984919-1772305735-1772294935&remote=no_check_ip
+http://103.144.89.251:8082/NAGORIK.TV.HD/index.m3u8?token=8c8aeac1801c8c4b7d691bc8c58d2430c64390c1-9ada617bd6fb4503c31b0c5b8a923b30-1772309184-1772298384&remote=no_check_ip
 
 #EXTINF:-28 tvg-logo="https://dl.dropbox.com/s/4av1om6yhu12w9j/nagorik-bd.png" group-title="BANGLA",NAGORIK TV HD (Backup 2)
-#http://198.195.239.50:8095/nagorik/tracks-v1a1/mono.m3u8 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
+#http://198.195.239.50:8095/nagorik/tracks-v1a1/mono.m3u8 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/d10390e5434e8cb44172257abd714beb" group-title="Bangla",Desh TV
-https://tvsen6.aynascope.net/deshtv/index.m3u8?e=1772303452&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2057d5c91222bab4dd08593db4a5717f
+https://tvsen6.aynascope.net/deshtv/index.m3u8?e=1772307933&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2cfc0c6f27244d431cac7ebcae71df2b
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/d10390e5434e8cb44172257abd714beb" group-title="Bangla",Desh TV (Backup 2)
-https://tvsen6.aynascope.net/deshtv/index.m3u8?e=1772303452&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2057d5c91222bab4dd08593db4a5717f
+https://tvsen6.aynascope.net/deshtv/index.m3u8?e=1772307933&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2cfc0c6f27244d431cac7ebcae71df2b
 
 #EXTINF:-32 tvg-logo="https://dl.dropbox.com/s/jjr5835pbth49tm/my_tv_bd.png" group-title="BANGLA",MY TV HD
-https://tvsen6.aynascope.net/mytv/index.m3u8?e=1772303459&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2c377a7e6fcecb11ad0ad7632a025287
+https://tvsen6.aynascope.net/mytv/index.m3u8?e=1772307939&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a8ace967f4fac9782b426682e5319808
 
 #EXTINF:-32 tvg-logo="https://dl.dropbox.com/s/jjr5835pbth49tm/my_tv_bd.png" group-title="BANGLA",MY TV HD (Backup 2)
 #https://mytvbangla.com/0.m3u8 # disabled: unreachable
 
 #EXTINF:-33 tvg-logo="https://s6.gifyu.com/images/image87250d092deb08a2.png" group-title="BANGLA",Bangla TV
-https://tvsen6.aynascope.net/banglatv/index.m3u8?e=1772303457&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f1e8bcecbe1bb6ee732a3c4595db1a44
+https://tvsen6.aynascope.net/banglatv/index.m3u8?e=1772307937&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=87d5f3dd05920a7a929e59aac6ede68e
 
 #EXTINF:-33 tvg-logo="https://s6.gifyu.com/images/image87250d092deb08a2.png" group-title="BANGLA",Bangla TV (Backup 2)
 http://116.204.149.16/banglatv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/73082846fdc15d9f0e7268b104c55d92" group-title="Bangla",Mohona TV
-https://tvsen6.aynascope.net/mohonatv/index.m3u8?e=1772303462&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b6897a7f3007656165d2f94102f548ca
+https://tvsen6.aynascope.net/mohonatv/index.m3u8?e=1772307941&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c0396bfba1a2d248767f6caac5a89693
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/73082846fdc15d9f0e7268b104c55d92" group-title="Bangla",Mohona TV (Backup 2)
-https://tvsen6.aynascope.net/mohonatv/index.m3u8?e=1772303462&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b6897a7f3007656165d2f94102f548ca
+https://tvsen6.aynascope.net/mohonatv/index.m3u8?e=1772307941&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c0396bfba1a2d248767f6caac5a89693
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/90635c3edf6e3c8dd92210b7248f1fa0" group-title="Bangla",NEXUS TV
-https://tvsen6.aynascope.net/nexustv/index.m3u8?e=1772303462&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6fb1eca116fd5ca128a5d8bc2b47f9d6
+https://tvsen6.aynascope.net/nexustv/index.m3u8?e=1772307940&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=0b9390d6dda216ff9711f67694999e84
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/90635c3edf6e3c8dd92210b7248f1fa0" group-title="Bangla",NEXUS TV (Backup 2)
-https://tvsen6.aynascope.net/nexustv/index.m3u8?e=1772303462&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6fb1eca116fd5ca128a5d8bc2b47f9d6
+https://tvsen6.aynascope.net/nexustv/index.m3u8?e=1772307940&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=0b9390d6dda216ff9711f67694999e84
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/f23d6f82c1a16458fe0e4c6f11b8fd87" group-title="BANGLA",Bijoy TV
-https://tvsen6.aynascope.net/bijoytv/index.m3u8?e=1772303461&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=aece7ec78b404c09b77f0f5e8c5e3bb0
+https://tvsen6.aynascope.net/bijoytv/index.m3u8?e=1772307940&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f23c5a01b13d71e4cc0853cd72308b46
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/f23d6f82c1a16458fe0e4c6f11b8fd87" group-title="BANGLA",Bijoy TV (Backup 2)
-https://tvsen6.aynascope.net/bijoytv/index.m3u8?e=1772303461&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=aece7ec78b404c09b77f0f5e8c5e3bb0
+https://tvsen6.aynascope.net/bijoytv/index.m3u8?e=1772307940&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f23c5a01b13d71e4cc0853cd72308b46
 
 #EXTINF:-1 tvg-logo=”http://www.jagobd.com/wp-content/uploads/2016/02/bangla21tv.jpg?x91288”group-title="BANGLA", Green TV
 #https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8 # disabled: unreachable
@@ -206,12 +197,12 @@ https://tvsen6.aynascope.net/bijoytv/index.m3u8?e=1772303461&u=78be6644-0a65-48e
 #EXTINF:-37 tvg-logo="https://imgur.com/ofqGiiK" group-title="BANGLA", Kumilla tv
 
 #EXTINF:-1 tvg-logo=""group-title="BANGLA", Me-tv
-#https://iptvbd.live/metv1080/1080.m3u8 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
+#https://iptvbd.live/metv1080/1080.m3u8 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
 
 #EXTINF:-1 tvg-logo=""group-title="BANGLA",Jankhar tv
 
 #EXTINF:-37 tvg-logo="https://i.ibb.co/0rPdpW9/MB-TV.jpg" group-title="BANGLA",Movie Bangla TV
-https://tvsen7.aynascope.net/moviebangla/index.m3u8?e=1772303559&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c40cb89a512a167c34b279b3beaf5a4f
+https://tvsen7.aynascope.net/moviebangla/index.m3u8?e=1772308019&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a07e41ec238c8e474953fdc22aa08671
 
 #EXTINF:-37 tvg-logo="https://i.ibb.co/0rPdpW9/MB-TV.jpg" group-title="BANGLA",Movie Bangla TV (Backup 2)
 #https://livess.jagobd.com.bd/live-orgin/moviebanglalink2.stream/chunks.m3u8 # disabled: unreachable
@@ -219,10 +210,7 @@ https://tvsen7.aynascope.net/moviebangla/index.m3u8?e=1772303559&u=78be6644-0a65
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LqQp9LH.jpg"group-title="BANGLA", Martri Vumi
 
 #EXTINF:-1 tvg-name="Deshi TV" tvg-logo="" group-title="BANGLA",Deshi TV
-https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Deshi TV" tvg-logo="" group-title="BANGLA",Deshi TV (Backup)
-http://208.86.19.13:81/514.stream/index.m3u8
+#http://208.86.19.13:81/514.stream/index.m3u8 # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CPmLfGs/Amar-Bangla.png" group-title="BANGLA",Amar Bangla
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
@@ -231,13 +219,13 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/897698f593fc07974fc46881a440733d" group-title="BANGLA",Ananda TV
-https://tvsen6.aynascope.net/anandatv/index.m3u8?e=1772303458&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=db68de7946d3b4495d838264bdf1ba09
+https://tvsen6.aynascope.net/anandatv/index.m3u8?e=1772307938&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e2a84f4c3c29f176b803f3b94bcd5b58
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/897698f593fc07974fc46881a440733d" group-title="BANGLA",Ananda TV (Backup 1)
-https://tvsen6.aynascope.net/anandatv/index.m3u8?e=1772303458&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=db68de7946d3b4495d838264bdf1ba09
+https://tvsen6.aynascope.net/anandatv/index.m3u8?e=1772307938&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e2a84f4c3c29f176b803f3b94bcd5b58
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/897698f593fc07974fc46881a440733d" group-title="BANGLA",Ananda TV (Backup 2)
-https://tvsen6.aynascope.net/anandatv/index.m3u8?e=1772303458&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=db68de7946d3b4495d838264bdf1ba09
+https://tvsen6.aynascope.net/anandatv/index.m3u8?e=1772307938&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e2a84f4c3c29f176b803f3b94bcd5b58
 
 #https://live-hls-web-aje.getaj.net/AJE/02.m3u8
 #EXTINF:-1 tvg-logo="https://1000logos.net/wp-content/uploads/2020/08/Al-Jazeera-Logo.jpg" group-title="English News",Al Jazeera
@@ -247,10 +235,10 @@ https://tvsen6.aynascope.net/anandatv/index.m3u8?e=1772303458&u=78be6644-0a65-48
 #https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/al-jazeera-english/master.m3u8 # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/f710d2ff532cb7e7b75566232c5b72d3" group-title="Bangla",SA TV
-https://tvsen6.aynascope.net/satv/index.m3u8?e=1772303455&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2573457a67dce371faee617a29a11731
+https://tvsen6.aynascope.net/satv/index.m3u8?e=1772307936&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f1cb926943edd284e6de44a5361a4d20
 
 #EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/f710d2ff532cb7e7b75566232c5b72d3" group-title="Bangla",SA TV (Backup 2)
-https://tvsen6.aynascope.net/satv/index.m3u8?e=1772303455&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2573457a67dce371faee617a29a11731
+https://tvsen6.aynascope.net/satv/index.m3u8?e=1772307936&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f1cb926943edd284e6de44a5361a4d20
 
 #http://tv.cloudcdn.me/live.ts?channelId=237&uid=8164&deviceMac=00:1A:79:17:D4:A1
 #http://xtv.ooo:8080/213112/213112/11
@@ -265,7 +253,7 @@ https://cloudfrontnet.vercel.app/tplay/playout/209617/master.m3u8
 https://tvsen4.aynaott.com/durontotv/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d7/Duronto_TV_Logo.png" group-title="Kids", Duronto TV
-https://tvsen6.aynascope.net/durontotv-live/index.m3u8?e=1772303456&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6d5487d0bea56a6d6bac68155fe66695
+https://tvsen6.aynascope.net/durontotv-live/index.m3u8?e=1772307936&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3fcc846c9699f7e60be6342859de44ec
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d7/Duronto_TV_Logo.png" group-title="Kids", Duronto TV
 https://cloudfrontnet.vercel.app/tplay/playout/209622/master.m3u8
@@ -286,10 +274,10 @@ http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 http://foxkids-online.ru/hls/test_240p264kbs/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://103.144.89.251/assets/images/NICK1745041451.png", NICK
-http://103.144.89.251:8082/NICK/index.m3u8?token=d2c159d72b7c8c364db581e06d94f5f54f8d32f0-9a44b5f61a859beb31a66c6cdf9ec79b-1772305735-1772294935&remote=no_check_ip
+http://103.144.89.251:8082/NICK/index.m3u8?token=cbad042fcc868151826da8b421873d5aa772eb9f-de93ba825dc65330321f0b1596e899ba-1772309184-1772298384&remote=no_check_ip
 
 #EXTINF:-1 tvg-logo="http://103.144.89.251/assets/images/NICK JR1745042397.png", NICK JR
-http://103.144.89.251:8082/NICK.JR/index.m3u8?token=04f762eca36a286b18ba1dabcc81dc8fb9d1c91f-9f4a6212ea0c69102093df2c45824d81-1772305735-1772294935&remote=no_check_ip
+http://103.144.89.251:8082/NICK.JR/index.m3u8?token=b1e6cfb51e0660c8927122fcee79dce021a0fea6-14938102ab920490434f4cc3276f13d6-1772309184-1772298384&remote=no_check_ip
 
 #EXTINF:-1 tvg-logo="http://103.144.89.251/assets/images/NICK JR1745042397.png", NICK JR
 https://a1xs.vip/300033
@@ -298,28 +286,25 @@ https://a1xs.vip/300033
 https://server.zillarbarta.com/zbcatun/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Sony_YAY%21_logo_%282017-present%29.png" group-title="Kids", Sony YAY
-https://edge2.roarzone.info:8447/roarzone/edge3/sony-yay/index.m3u8?token=5e1d18abfde83d965bdb9b69eb878cc7c812dd7a-8837156284a8bd143fb16272a0849d9e-1772297917-1772294317
+https://edge2.roarzone.info:8447/roarzone/edge3/sony-yay/index.m3u8?token=d8ba7cb9e067b15b1407ea88e52e8490a01d826c-a91d7eb2785296892c77b2488b7ec332-1772304503-1772300903
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Sony_YAY%21_logo_%282017-present%29.png" group-title="Kids", Sony YAY
-http://103.144.89.251:8082/SONY.YAY/index.m3u8?token=f3723d586cf42947358827035d141d619900370b-b101c50efb7d75b37277a657da703795-1772305736-1772294936&remote=no_check_ip
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/Sony_YAY%21_logo_%282017-present%29.png" group-title="Kids", Sony YAY
-https://edge2.roarzone.info:8447/roarzone/edge3/sony-yay/index.m3u8?token=e8086db6dbe751e6dc05ecc21b2ef9b070da4b19-18f43ad1550814d7e1a12f36d5e02a93-1772301372-1772297772
+http://103.144.89.251:8082/SONY.YAY/index.m3u8?token=a4ba0c1ad97c6c52e02efe96e296f59823cdf06e-0fccbe808518d8e73a8ac14cbaea79a4-1772309184-1772298384&remote=no_check_ip
 
 #EXTINF:-1 group-title="Kids" tvg-logo="https://i.imgur.com/chT8xP5.png",Pogo
-https://edge2.roarzone.info:8447/roarzone/edge3/pogo/index.m3u8?token=b26bf5584985a60c26db29991e380f725f2c1994-2669008522b445a03a3673e9b698cd15-1772297918-1772294318
+https://edge2.roarzone.info:8447/roarzone/edge3/pogo/index.m3u8?token=a71ecf675b238d7dcc61d42b032e12b90b6addf0-49a0ab73e6b8290118a95a3e1e8d1fe4-1772304503-1772300903
 
 #EXTINF:-1 group-title="Kids" tvg-logo="https://i.imgur.com/chT8xP5.png",Pogo (Backup 2)
-#https://edge2.roarzone.info:8445/roarzone/edge3/pogo/index.m3u8?token=e8984fbf4c4c0de35d1b8740de9f5acecdcf0048-bd39b86877adeaa86c6764eb4e16a6fb-1771885460-1771881860 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
+#https://edge2.roarzone.info:8445/roarzone/edge3/pogo/index.m3u8?token=e8984fbf4c4c0de35d1b8740de9f5acecdcf0048-bd39b86877adeaa86c6764eb4e16a6fb-1771885460-1771881860 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="http://103.144.89.251/assets/images/CARTOON NETWORK1745033414.png", CARTOON NETWORK
 https://a1xs.vip/300032
 
 #EXTINF:-1 tvg-logo="http://103.144.89.251/assets/images/CARTOON NETWORK1745033414.png", CARTOON NETWORK
-http://103.144.89.251:8082/CARTON.NETWORK.HD/index.m3u8?token=47bdb5828f9379230ebde00b1b759d3cb4434253-ec90e4137224848ed969ddaa434204fb-1772305734-1772294934&remote=no_check_ip
+http://103.144.89.251:8082/CARTON.NETWORK.HD/index.m3u8?token=47dbdcd0252148680bb1e7943e22d15343f3a1ee-7e10a2ad0b6e0980560cf09f9216cfa1-1772309183-1772298383&remote=no_check_ip
 
 #EXTINF:-1 tvg-logo="http://103.144.89.251/assets/images/CARTOON NETWORK1745033414.png", CARTOON NETWORK
-https://edge2.roarzone.info:8447/roarzone/edge3/cartoon-network/index.m3u8?token=9f4e43597e1bdd6a3029774c99f5b1757240e427-912d0f7030704da84219979785ab15ef-1772297917-1772294317
+https://edge2.roarzone.info:8447/roarzone/edge3/cartoon-network/index.m3u8?token=fa82d428451ab65ee853232b4c619ff44eca2330-77d7fc4b8863fc879623476c97a93750-1772304503-1772300903
 
 #EXTINF:-1 tvg-name="24/7 Gopal Bhar" group-title="Bangladeshi ",24/7 Gopal Bhar
 https://cloudfrontnet.vercel.app/tplay/playout/209611/master.m3u8
@@ -352,7 +337,7 @@ https://denver1769.pages.dev/Discovery/discovery_hd_hindi.m3u8
 https://denver1769.pages.dev/Discovery/discovery_hd_hindi.m3u8
 
 #EXTINF:-63 tvg-logo="https://bdiptv.stream/uploads/tv_image/discovery.png" group-title="Documentary",Discovery Science SD
-https://edge2.roarzone.info:8447/roarzone/edge3/discovery-science/index.m3u8?token=5ab212b1f92d9654cbb87ee3897778839ce4ff36-eae9306d03332374e43475626096d610-1772297917-1772294317
+https://edge2.roarzone.info:8447/roarzone/edge3/discovery-science/index.m3u8?token=e663752522b40b1b190b7b754a3f0d49dc7b9dca-5626d2d60ea33ac5102f555040155698-1772304503-1772300903
 
 #EXTINF:-63 tvg-logo="https://bdiptv.stream/uploads/tv_image/discovery.png" group-title="Documentary",Discovery Science SD (Backup 2)
 http://103.229.254.25:7001/play/a03h/index.m3u8
@@ -371,13 +356,13 @@ http://151.80.18.177:86/National_Geo_HD/index.m3u8
 https://a1xs.vip/300035
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Animal_Planet_logo.svg/1280px-Animal_Planet_logo.svg.png" group-title="Documentary", Animal Planet HD
-http://103.144.89.251:8082/ANIMAL.PLANET.HD/index.m3u8?token=ea660c2b0cbc8b1f0a4950259282b13a48321d5e-c838df7eb11f05335372f04bba857f56-1772305736-1772294936&remote=no_check_ip
+http://103.144.89.251:8082/ANIMAL.PLANET.HD/index.m3u8?token=6d66e7eac540152314223ce32b9e10c908128423-828f58e3b5b2f7578cb73e3288318355-1772309185-1772298385&remote=no_check_ip
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Animal_Planet_logo.svg/1280px-Animal_Planet_logo.svg.png" group-title="Documentary", Animal Planet HD
-https://edge2.roarzone.info:8447/roarzone/edge3/animal-planet-hd/index.m3u8?token=94913dba6a59a24c32d033de50279dddbb96d9e9-7f90a6f9a776efb557712141c876e47b-1772297917-1772294317
+https://edge2.roarzone.info:8447/roarzone/edge3/animal-planet-hd/index.m3u8?token=6723180d3f22407fe70092c8cf7c2fb831fc7a5b-2ff8333b370259e31ea674abb2d46c73-1772304503-1772300903
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png/revision/latest/scale-to-width-down/250?cb=20180908084350" group-title="Indian-Bangla",Star Jalsha HD
-https://tvsen7.aynascope.net/sjhdbd/index.m3u8?e=1772303691&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e6df9876a676f7d171252aef6222fe29
+https://tvsen7.aynascope.net/sjhdbd/index.m3u8?e=1772308129&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=58807cd1b3b7881cdfd46e5ad4edac5c
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png/revision/latest/scale-to-width-down/250?cb=20180908084350" group-title="Indian-Bangla",Star Jalsha HD (Backup 2)
 #http://tv.cloudcdn.me/live.ts?channelId=116&uid=8164&deviceMac=00:1A:79:17:D4:A1 # disabled: unreachable
@@ -392,13 +377,13 @@ https://server.zillarbarta.com/ZBCINEMA/tracks-v1a1/mono.m3u8
 https://server.zillarbarta.com/ZBCINEMA/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="Indian-Bangla",Zee Bangla HD
-https://edge2.roarzone.info:8447/roarzone/edge3/zee-bangla/index.m3u8?token=16395701bb63796639503b3649b9f504e91087d8-805d0a26b5f861de1c6d6d1e81644cdb-1772297917-1772294317
+https://edge2.roarzone.info:8447/roarzone/edge3/zee-bangla/index.m3u8?token=cc26fd4d5efa1918df98e9611e491d85f026c6b5-6a44e08d21b63af2c050334a88c4608e-1772304503-1772300903
 
 #EXTINF:-1 tvg-logo="" group-title="Indian-Bangla",Zee Bangla HD (Backup - 1)
-#https://padmaonline.duckdns.org:8088/ZeeBanglaHD/index.m3u8 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
+#https://padmaonline.duckdns.org:8088/ZeeBanglaHD/index.m3u8 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="" group-title="Indian-Bangla",Zee Bangla HD (Backup - 2)
-#http://103.182.170.32:8888/play/a048 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
+#http://103.182.170.32:8888/play/a048 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
 
 #EXTINF:-53 tvg-logo="https://dl.dropbox.com/s/8z5yuaoyryedp6l/ZB.jpg" group-title="Indian-Bangla",ZB Cinema
 https://server.zillarbarta.com/ZBCINEMA/tracks-v1a1/mono.ts.m3u8
@@ -407,13 +392,13 @@ https://server.zillarbarta.com/ZBCINEMA/tracks-v1a1/mono.ts.m3u8
 https://server.zillarbarta.com/ZBCINEMA/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-54 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Zee_Bangla_Cinema.jpeg/200px-Zee_Bangla_Cinema.jpeg" group-title="Indian-Bangla",Zee Bangla Cinema
-https://edge2.roarzone.info:8447/roarzone/edge3/zee-bangla-cinema/index.m3u8?token=95c229b91e59d7a07f77454f0b4baffe0cc6f9ea-9ae4103240d8735c6876be951a4c2fb8-1772297917-1772294317
+https://edge2.roarzone.info:8447/roarzone/edge3/zee-bangla-cinema/index.m3u8?token=d64612be75832f9e26d9ff6fe0ada62b28519709-ad49d46a2ca8a799cd47e24ad7b01df7-1772304503-1772300903
 
 #EXTINF:-54 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Zee_Bangla_Cinema.jpeg/200px-Zee_Bangla_Cinema.jpeg" group-title="Indian-Bangla",Zee Bangla Cinema (Backup 2)
 http://103.182.170.32:8888/play/a044
 
 #EXTINF:-55 tvg-logo="https://dl.dropbox.com/s/44vdhjj6fja02co/CBHD.jpg" group-title="Indian-Bangla",Colors Bangla
-https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd/800.m3u8?hdnts=
+https://edge2.roarzone.info:8447/roarzone/edge2/colors-bangla/index.m3u8?token=1cb39bd368a14f158e4b632d88c280d9896aff80-36e85313d91803d6b7fabfedfc6745e3-1772304503-1772300903
 
 #EXTINF:-55 tvg-logo="https://dl.dropbox.com/s/44vdhjj6fja02co/CBHD.jpg" group-title="Indian-Bangla",Colors Bangla (Backup 2)
 https://yupptvcatchupire.yuppcdn.net/preview/colorsbanglahd/800.m3u8?hdnts=
@@ -425,16 +410,19 @@ http://line.rain-ott.com:80/Ckks7HMG12/1VDpJ5Xj4q/1484537
 http://line.rain-ott.com:80/Ckks7HMG12/1VDpJ5Xj4q/1484537
 
 #EXTINF:-1 tvBangla="https://www.lyngsat.com/logo/tv/ss/sun-bangla-in.png" group-title="Indian-Bangla",Sun Bangla
-http://103.144.89.251:8082/SUN.BANGLA.HD/index.m3u8?token=d5bcaaf6da48f98ad5183d0d26dc0f3c640f827f-6a060248f9e493d018758edfa0dcfc93-1772305737-1772294937&remote=no_check_ip
+http://103.144.89.251:8082/SUN.BANGLA.HD/index.m3u8?token=b2c62368698f62234c796da7c8f34865e65ccf85-7f324166fa0992a823f77ffb9433c5ab-1772309185-1772298385&remote=no_check_ip
+
+#EXTINF:-1 tvBangla="https://www.lyngsat.com/logo/tv/ss/sun-bangla-in.png" group-title="Indian-Bangla",Sun Bangla (Backup)
+http://103.122.252.100:8080/SUN-BANGLA/index.m3u8
 
 #EXTINF:-56 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sony_Aath_logo.svg/1200px-Sony_Aath_logo.svg.png" group-title="Indian-Bangla",Sony Aath
-https://edge2.roarzone.info:8447/roarzone/edge3/sony-aath/index.m3u8?token=40ff6e7afa27265ea3dc5370b3067d35f666449f-0cbfb2bbeec5e239e1dd9b949118221b-1772297917-1772294317
+https://edge2.roarzone.info:8447/roarzone/edge3/sony-aath/index.m3u8?token=a5ce1bccdb4705596f1b1236f8b03b3484deacdb-58a3b258009293b465ed0ec46e77a7e7-1772304503-1772300903
 
 #EXTINF:-56 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Sony_Aath_logo.svg/1200px-Sony_Aath_logo.svg.png" group-title="Indian-Bangla",Sony Aath (Backup 2)
 #https://app.hughag.store/api/b6a720edea/playlist.m3u8 # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="http://103.144.89.251/assets/images/SONIC1745041154.png", SONIC
-http://103.144.89.251:8082/SONIC/index.m3u8?token=36f149721fa109a331bd52e36f259e89dd865e02-8794b4e5a5148ae1336cf03131cfb3f2-1772305735-1772294935&remote=no_check_ip
+http://103.144.89.251:8082/SONIC/index.m3u8?token=2ba9dd6815386e3c22950769289163e5d70c59a6-4e8621b6395ab64bdf87f2230b93a389-1772309184-1772298384&remote=no_check_ip
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Enterr10_Bangla.jpeg/200px-Enterr10_Bangla.jpeg" group-title="Indian-Bangla",SANANDA TV HD
 https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
@@ -468,13 +456,13 @@ http://xtv.ooo:8080/213112/213112/245932
 https://cdn-4.pishow.tv/live/1039/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ss/sun-bangla-in.png" group-title="Indian-Bangla",Zee 24 Ghanta
-https://tvsen6.aynascope.net/zee24/index.m3u8?e=1772303555&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f07edd288f7f92b90b41a7031aa70f3b
+https://tvsen6.aynascope.net/zee24/index.m3u8?e=1772308016&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=4dfec309d73d16dcd6d1a46aea479f71
 
 #EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ss/sun-bangla-in.png" group-title="Indian-Bangla",Zee 24 Ghanta (Backup 2)
-#https://tvsen6.aynascope.net/zee24/index.m3u8?e=1771714467&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=df08ec8652fbc4befcd9a3f63772e98a # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
+#https://tvsen6.aynascope.net/zee24/index.m3u8?e=1771714467&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=df08ec8652fbc4befcd9a3f63772e98a # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="" group-title="Indian-Bangla", Republic Bangla
-https://tvsen5.aynascope.net/R_Bangla/index.m3u8?e=1772303554&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=7baeede5c225a5b3d9afc6601b2c5af0
+https://tvsen5.aynascope.net/R_Bangla/index.m3u8?e=1772308015&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=8c89011cb1a86e3d97cf817eaedebf9a
 
 #EXTINF:-1 tvg-logo="" group-title="Indian-Bangla", Republic Bangla
 https://vg-republictvlive.akamaized.net/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/06e5afc2-a022-4e51-9131-4e33a6207c5c/1.m3u8
@@ -505,15 +493,12 @@ https://cdn-2.pishow.tv/live/228/228_1.m3u8
 https://cdn-2.pishow.tv/live/228/228_1.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/Colors-cineplex.png?20211203010524" group-title="Hindi",Colors
-https://cdn-2.pishow.tv/live/228/228_1.m3u8
+https://edge2.roarzone.info:8447/roarzone/edge2/colors/index.m3u8?token=6229a985981cbeb54da871f1377a41b57662d3f1-d97017b840fdb392ecf551a86c71600d-1772304503-1772300903
 
 #EXTINF:-1 tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-300/bflix-movies-logo-300x300.jpg" group-title="Hindi",Bflix Movies
 
 #EXTINF:-98 tvg-logo="https://yt3.ggpht.com/ytc/AKedOLS0XIuM3jYJPnjEFAdoBoqrDkEwev9LQL8HdM4w1Q=s900-c-k-c0x00ffffff-no-rj" group-title="Hindi", &Tv
-https://edge2.roarzone.info:8447/roarzone/edge3/tv-hd/index.m3u8?token=644ae4731447900195399a0ff47701ba4c93e164-98d022e3701f529202a4b4a89feee55e-1772297917-1772294317
-
-#EXTINF:-98 tvg-logo="https://yt3.ggpht.com/ytc/AKedOLS0XIuM3jYJPnjEFAdoBoqrDkEwev9LQL8HdM4w1Q=s900-c-k-c0x00ffffff-no-rj" group-title="Hindi", &Tv
-https://edge2.roarzone.info:8447/roarzone/edge3/tv-hd/index.m3u8?token=06de5d9a673d5055e6988e2cbe37a9ef1dc30c51-b1bce0cd19a1fd024ac037d3f7a78adf-1772301372-1772297772
+https://edge2.roarzone.info:8447/roarzone/edge3/tv-hd/index.m3u8?token=c8a7eea53dff4fb9e9ba9a4eaeb056f8d5956bb9-9611885424c9f6f84fd9a7e36e13491f-1772304503-1772300903
 
 #EXTINF:-98 tvg-logo="https://yt3.ggpht.com/ytc/AKedOLS0XIuM3jYJPnjEFAdoBoqrDkEwev9LQL8HdM4w1Q=s900-c-k-c0x00ffffff-no-rj" group-title="Hindi", &Tv
 http://103.229.254.25:7001/play/a034/index.m3u8
@@ -522,13 +507,13 @@ http://103.229.254.25:7001/play/a034/index.m3u8
 http://103.229.254.25:7001/play/a034/index.m3u8
 
 #EXTINF:-98 tvg-logo="https://www.tsbi.in/wp-content/uploads/2020/10/Webp.net-resizeimage.png" group-title="Hindi", &PICTURES
-https://tvsen6.aynascope.net/andpictureshd/index.m3u8?e=1772303645&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b209253f6e6f1ba233ab96516112a65f
+https://tvsen6.aynascope.net/andpictureshd/index.m3u8?e=1772308090&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=25a36e4bfbf81dd717218b26c1b87dbf
 
 #EXTINF:-98 tvg-logo="https://www.tsbi.in/wp-content/uploads/2020/10/Webp.net-resizeimage.png" group-title="Hindi", &PICTURES
-https://edge2.roarzone.info:8447/roarzone/edge3/pictures-hd/index.m3u8?token=1cd60476787fc35f8017f04c880938494c009681-55ce4f4809c24cb4fa839494ed5f15bf-1772297917-1772294317
+https://edge2.roarzone.info:8447/roarzone/edge3/pictures-hd/index.m3u8?token=d29d25eb0b16c022f00a51fcecc94abb4b984aeb-73d09bf6d2a1178eee80a37f096491a5-1772304503-1772300903
 
 #EXTINF:-98 tvg-logo="https://www.tsbi.in/wp-content/uploads/2020/10/Webp.net-resizeimage.png" group-title="Hindi", &PICTURES
-https://edge2.roarzone.info:8447/roarzone/edge3/pictures-hd/index.m3u8?token=36081a577f84af75b40e446191eaa54b86d5373f-b0b56ae6fc7e5e29faed4435a3dfec68-1772301372-1772297772
+http://103.229.254.25:7001/play/a033/index.m3u8
 
 #EXTINF:-103 tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_HD.png" group-title="Hindi",Star Gold Thrills
 http://103.99.249.139/stargold/index.m3u8
@@ -549,7 +534,7 @@ http://103.99.249.139/stargold/index.m3u8
 http://103.99.249.139/stargold/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/Zee_TV-2018.png" group-title="Hindi",Zee tv
-https://edge2.roarzone.info:8447/roarzone/edge3/zee-tv-hd/index.m3u8?token=322ccf91e8177d989f6fd866c373dcd94259e051-9822f4c04a5122c3de473956c4433ff9-1772297917-1772294317
+https://edge2.roarzone.info:8447/roarzone/edge3/zee-tv-hd/index.m3u8?token=be877b2b1d61ed55708627a929f1b1367241ad18-baf4efcea3c83fce8780b77495b5754a-1772304503-1772300903
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/Zee_TV-2018.png" group-title="Hindi",Zee tv (Backup 2)
 http://mag.king-4k.cc:80/C1645263A1D245C/1sFTVBSVCP/1446015
@@ -557,23 +542,20 @@ http://mag.king-4k.cc:80/C1645263A1D245C/1sFTVBSVCP/1446015
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/Zee_TV-2018.png" group-title="Hindi",Zee One
 http://mag.king-4k.cc:80/C1645263A1D245C/1sFTVBSVCP/1446015
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/Zee_TV-2018.png" group-title="Hindi",Zee One (Backup)
-http://161.248.38.40:8000/play/a08v/index.m3u8
+#EXTINF:-105 tvg-chno="1" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-zeecinemahd/list/09zeecinemahdzeecinemahd.jpg" group-title="Hindi", Zee Cinema
+https://edge2.roarzone.info:8447/roarzone/edge3/zee-cinema-hd/index.m3u8?token=7520afd99c631850a9886c43eebd043655e6f15a-e8da1ef550aaeef0321ce87bdf4873ea-1772304503-1772300903
 
 #EXTINF:-105 tvg-chno="1" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-zeecinemahd/list/09zeecinemahdzeecinemahd.jpg" group-title="Hindi", Zee Cinema
-https://edge2.roarzone.info:8447/roarzone/edge3/zee-cinema-hd/index.m3u8?token=79d34e08a588b9aae327a12692367b3b4ba01174-5e64b1d59e8491952ce4204e29f579d1-1772297917-1772294317
+http://103.144.89.251:8082/ZEE.CINEMA.HD/index.m3u8?token=3da326f29b686203588d3f9ed4ba76da4a3b595d-495de64febdbab5382c4e60f81980a49-1772309185-1772298385&remote=no_check_ip
 
 #EXTINF:-105 tvg-chno="1" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-zeecinemahd/list/09zeecinemahdzeecinemahd.jpg" group-title="Hindi", Zee Cinema
-http://103.144.89.251:8082/ZEE.CINEMA.HD/index.m3u8?token=10a16f927c3ea9d2390bb8707f5e6bb3bec68f36-0070d1409524a9090f2b0c5953558c2f-1772305737-1772294937&remote=no_check_ip
-
-#EXTINF:-105 tvg-chno="1" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-zeecinemahd/list/09zeecinemahdzeecinemahd.jpg" group-title="Hindi", Zee Cinema
-https://edge2.roarzone.info:8447/roarzone/edge3/zee-cinema-hd/index.m3u8?token=78675519a25358b9b61d7bd4b971208e94a281b0-1179a590a42440e1333f0792cdc10226-1772301372-1772297772
+https://padmaonline.duckdns.org:8088/ZeeCinemaHD/tracks-v1a1/mono.m3u8
 
 #EXTINF:-107 tvg-name="Zee Action" tvg-logo="https://tma-live.s3.ap-south-1.amazonaws.com/medias/58c90ef7694fe70f730ff014/1565808835654/246fc32281bd88720c5a6dbd7c9a3984.png" group-title="Hindi", Zee Action
 http://103.175.73.12:8080/live/270/270_0.m3u8
 
 #EXTINF:-107 tvg-name="Zee Action" tvg-logo="https://tma-live.s3.ap-south-1.amazonaws.com/medias/58c90ef7694fe70f730ff014/1565808835654/246fc32281bd88720c5a6dbd7c9a3984.png" group-title="Hindi", Zee Action
-https://edge2.roarzone.info:8447/roarzone/edge3/zee-action/index.m3u8?token=e8e1540809d066d2171baf17a94d4f1e53cf7ba0-5e8cf395a1fcacfc71c8f15a4e67b46c-1772297917-1772294317
+https://edge2.roarzone.info:8447/roarzone/edge3/zee-action/index.m3u8?token=d3b8e0a367d3f3c1c2806835d4a34b3df0817f00-e94c4cc4661c8c429dd75b6ddd39a129-1772304503-1772300903
 
 #EXTINF:-107 tvg-name="Zee Action" tvg-logo="https://tma-live.s3.ap-south-1.amazonaws.com/medias/58c90ef7694fe70f730ff014/1565808835654/246fc32281bd88720c5a6dbd7c9a3984.png" group-title="Hindi", Zee Action
 https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8
@@ -581,7 +563,7 @@ https://cloudfrontnet.vercel.app/tplay/playout/209593/master.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/SET_India_logo.svg/1200px-SET_India_logo.svg.png" group-title="Hindi",Sony Entertainment HD
 
 #EXTINF:-110 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/43/SonySABlogo.png" group-title="Hindi",SONY SAB
-https://edge2.roarzone.info:8447/roarzone/edge3/sony-sab-hd/index.m3u8?token=7cc1735214b6455a2980d0488b64034ec1c275ae-73dc247371f189a514192f6c719a0dd0-1772297917-1772294317
+https://edge2.roarzone.info:8447/roarzone/edge3/sony-sab-hd/index.m3u8?token=f2cacf08fdf44e24d16bcbfb97e243edeff86dbd-21eb95466455af0a52133bdbe41b3703-1772304503-1772300903
 
 #EXTINF:-110 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/43/SonySABlogo.png" group-title="Hindi",SONY SAB (Backup 2)
 http://206.212.244.71:8080/BRIDGITS@YAHOO.COM/BRIDGITS@2022/125809
@@ -594,7 +576,7 @@ http://103.99.249.139/sonymax/index.m3u8
 http://103.99.249.139/sonymax/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d7/Sony_Max_2_India.jpg" group-title="Hindi",SONY MAX-2 (Backup 2)
-#https://edge2.roarzone.info:8445/roarzone/edge3/sony-max-2/index.m3u8?token=8003ed3ef8e43e86c5e47aae59677aeb596f7c42-061e318e3114fb53c4d90fe2433bf7e0-1771710879-1771707279 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
+#https://edge2.roarzone.info:8445/roarzone/edge3/sony-max-2/index.m3u8?token=8003ed3ef8e43e86c5e47aae59677aeb596f7c42-061e318e3114fb53c4d90fe2433bf7e0-1771710879-1771707279 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/CLPr6gq6/IMG-20220828-165715.jpg" group-title="Hindi", MK Six
 https://cdn-3.pishow.tv/live/1253/master.m3u8
@@ -606,35 +588,38 @@ https://jmp2.uk/stvp-IN3800008CX
 https://cdnb4u.wiseplayout.com/B4U_Movies/SD216/SD216.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/CLPr6gq6/IMG-20220828-165715.jpg" group-title="Hindi",B4U Movies
-https://edge2.roarzone.info:8447/roarzone/edge3/b4u-movies-apac/index.m3u8?token=4b9391c084da6691efee969f3cd3e39eea50e6ef-1707464192657347643434904763e5b0-1772297917-1772294317
+https://edge2.roarzone.info:8447/roarzone/edge3/b4u-movies-apac/index.m3u8?token=f22e6d1d16ad2c414bef14ec2a7dbce2cf490a94-0fc47eedb5ef5d6eb4a5299c80188aa5-1772304503-1772300903
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/CLPr6gq6/IMG-20220828-165715.jpg" group-title="Hindi",B4U Movies (Backup 2)
 https://cdnb4u.wiseplayout.com/B4U_Movies/SD216/SD216.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Pix.jpeg"group-title="English Movie",Sony Pix
-https://edge2.roarzone.info:8447/roarzone/edge3/sony-pix-hd/index.m3u8?token=c9508c1289e03e67fcf2eddb59ea5afa22904498-6e69d083e79a0099271349335aef452e-1772297918-1772294318
+https://edge2.roarzone.info:8447/roarzone/edge3/sony-pix-hd/index.m3u8?token=f73dbc37c70acb0117c7c353ac364554e0097027-add68f8727086542e43f0ec9905615c8-1772304503-1772300903
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/56e54462053b1b278b80b532c89c01f17e360fd5/Sony%20Pix.jpeg"group-title="English Movie",Sony Pix (Backup 2)
-#http://103.175.73.12:8080/live/59/59_0.m3u8 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
+#http://103.175.73.12:8080/live/59/59_0.m3u8 # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable # disabled: unreachable
 
 #EXTINF:-1 tvg-logo="http://103.144.89.251/assets/images/MOVIES NOW HD1745040368.png", MOVIES NOW HD
-http://103.144.89.251:8082/MOVIES.NOW.HD/index.m3u8?token=cde883575f54e5d0698d253bd678351e1da111b0-fbe63e0ff2c4483e8a19160b851cd8ba-1772305735-1772294935&remote=no_check_ip
+http://103.144.89.251:8082/MOVIES.NOW.HD/index.m3u8?token=89e71a6299ba538ba6bce91a04a2c9854f4235de-de08078da18582739bdfd376f41962bd-1772309184-1772298384&remote=no_check_ip
 
 #EXTINF:-1 group-title="English Movie" tvg-logo="https://i.ibb.co/Ns62bY2/2021-04-22-10-24-01.png", AXN
-http://103.144.89.251:8082/AXN.HD/index.m3u8?token=f110ffa31331a893e328c39cd2f0fb5c43abb816-e76ac67ed0140eda14b7dedbf9637c52-1772305734-1772294934&remote=no_check_ip
+http://103.144.89.251:8082/AXN.HD/index.m3u8?token=67a598342c50b7cdcdea42a234cd34c721a90285-f2ded1b04cbdd701879ea413079f00a5-1772309183-1772298383&remote=no_check_ip
 
 #EXTINF:-1 group-title="English Movie" tvg-logo="https://i.ibb.co/Ns62bY2/2021-04-22-10-24-01.png",Lotus
 https://cdn1.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus-avc1_2089200=342-mp4a_256000_eng=343.m3u8
 
+#EXTINF:-1 group-title="English Movie" tvg-logo="https://i.ibb.co/Ns62bY2/2021-04-22-10-24-01.png",Lotus (Backup)
+http://103.144.89.251:8082/Lotus.TV.HD/index.m3u8?token=9eccdff9cee8c21c7a4db61cb0a23eeab1271d96-37c678de6e622f3568faf0e1a38c1b5d-1772309183-1772298383&remote=no_check_ip
+
 #EXTINF:-1 group-title="English Movie" tvg-logo="https://i.ibb.co/Ns62bY2/2021-04-22-10-24-01.png",Box Cinama
 
 #EXTINF:-1 group-title="English Movie" tvg-logo="https://i.ibb.co/Ns62bY2/2021-04-22-10-24-01.png", Star Movies HD
-http://103.144.89.251:8082/STAR.MOVIES.HD/index.m3u8?token=9998d428c1d86fe5100c5c5afe11d31e4f588f3b-029fe05522957b186abf0d1bf6a3585b-1772305736-1772294936&remote=no_check_ip
+http://103.144.89.251:8082/STAR.MOVIES.HD/index.m3u8?token=9ac155739388e610e3a8bf458394e7cf747e8d80-82bb8bf36caa7d79c033ce0304a1c3ac-1772309185-1772298385&remote=no_check_ip
 
 #EXTINF:-1 group-title="English Movie" tvg-logo="https://i.ibb.co/Ns62bY2/2021-04-22-10-24-01.png", Sci-fi
 
 #EXTINF:-117 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/2560px-HBO_logo.svg.png" group-title="English Movie",HBO
-#http://103.144.89.251:8082/HBO.HD/index.m3u8?token=506d1fbc1923a168250fa37d0ac0c64cfb4cc227-70215a6adb3390d155a27be5afb7951e-1772305734-1772294934&remote=no_check_ip # disabled: unreachable
+#http://103.144.89.251:8082/HBO.HD/index.m3u8?token=4ea81d7c4ebb56b20154a34528b98aa2f3988112-d06101bf81f1a92bec44d336059b0ef6-1772309183-1772298383&remote=no_check_ip # disabled: unreachable
 
 #EXTINF:-1 group-title="English Movie" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/KIX_logo.svg/1200px-KIX_logo.svg.png",KIX
 http://93.184.10.248/MBCBollywood/index.m3u8
@@ -649,7 +634,7 @@ https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1/index.fmp4.m3u8
 #http://103.96.235.18:9090/sports1/index.m3u8 # disabled: unreachable
 
 #EXTINF:-127 tvg-logo="https://i.ytimg.com/vi/CXTxw-69Ch8/maxresdefault.jpg" group-title="SPORTS",Star Sports 1-[2]
-https://tvsen5.aynascope.net/c9EpzZ6fQBJ3/index.m3u8?e=1772303499&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=860aed08e8d64e505ca1e56bc92a9c3c
+http://41.205.93.154/STARSPORTS1/index.m3u8
 
 #EXTINF:-127 tvg-logo="https://i.ytimg.com/vi/CXTxw-69Ch8/maxresdefault.jpg" group-title="SPORTS",Star Sports-1 Hindi
 https://starsportshindiii.pages.dev/index.m3u8
